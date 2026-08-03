@@ -350,6 +350,24 @@
       ]
     },
     {
+      "title": "SPECIAL FINALE: The Angel Above",
+      "difficultyMultiplier": 1.8,
+      "entries": [
+        {
+          "name": "Zea Angel",
+          "health": 60,
+          "isPillarBoss": true,
+          "firePattern": {
+            "type": "WALL",
+            "durability": "INDESTRUCTIBLE",
+            "baseInterval": 1.1,
+            "bulletSpeed": 180,
+            "bulletsPerBurst": 18
+          }
+        }
+      ]
+    },
+    {
       "title": "POST-CREDITS: Engr. Jared Abayan",
       "difficultyMultiplier": 1.8,
       "entries": [
