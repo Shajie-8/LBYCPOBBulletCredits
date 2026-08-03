@@ -337,7 +337,7 @@
       "entries": [
         {
           "name": "Shajie L. Macabalang",
-          "health": 60,
+          "health": 100,
           "isPillarBoss": true,
           "firePattern": {
             "type": "RADIAL_BURST",
@@ -355,7 +355,7 @@
       "entries": [
         {
           "name": "Zea Angel",
-          "health": 60,
+          "health": 100,
           "isPillarBoss": true,
           "firePattern": {
             "type": "WALL",
