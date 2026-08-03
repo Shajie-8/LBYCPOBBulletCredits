@@ -20,7 +20,7 @@ import static com.almasb.fxgl.dsl.FXGL.getAppHeight;
  */
 public class PlayerComponent extends ShipComponent {
 
-    private static final int STARTING_LIVES = 130;
+    private static final int STARTING_LIVES = 30;
     private static final int HEALTH_PER_LIFE = 1;
     private static final double FIRE_INTERVAL_SECONDS = 0.10;
     private static final double BULLET_SPEED = 650;

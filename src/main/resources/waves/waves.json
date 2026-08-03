@@ -360,9 +360,10 @@
           "firePattern": {
             "type": "WALL",
             "durability": "INDESTRUCTIBLE",
-            "baseInterval": 1.1,
+            "baseInterval": 0.85,
             "bulletSpeed": 180,
-            "bulletsPerBurst": 18
+            "wallSegments": 18,
+            "wallWidth": 640
           }
         }
       ]
