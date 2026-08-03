@@ -332,6 +332,24 @@
       ]
     },
     {
+      "title": "SPECIAL FINALE: The One In Scarlet",
+      "difficultyMultiplier": 1.8,
+      "entries": [
+        {
+          "name": "Shajie L. Macabalang",
+          "health": 60,
+          "isPillarBoss": true,
+          "firePattern": {
+            "type": "RADIAL_BURST",
+            "durability": "INDESTRUCTIBLE",
+            "baseInterval": 1.1,
+            "bulletSpeed": 180,
+            "bulletsPerBurst": 18
+          }
+        }
+      ]
+    },
+    {
       "title": "POST-CREDITS: Engr. Jared Abayan",
       "difficultyMultiplier": 1.8,
       "entries": [

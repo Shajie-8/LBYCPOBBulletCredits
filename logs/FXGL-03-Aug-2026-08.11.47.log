@@ -1,0 +1,824 @@
+08:08:49.883 [main                     ] DEBUG Logger               - Configured Logger
+08:08:49.885 [main                     ] DEBUG GameApplication      - Logging settings
+Title: LBYCPOB Credits
+Version: 1.0
+Width: 1280
+Height: 720
+Fullscreen: true
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+08:08:50.342 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+08:08:50.344 [JavaFX Application Thread] INFO  Engine               - FXGL-25 (05.02.2026 22.57) on WINDOWS (J:25.0.3 FX:25.0.1)
+08:08:50.345 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Oracle Corporation
+08:08:50.345 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Windows 11 version 10.0
+08:08:50.345 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+08:08:50.345 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+08:08:50.345 [JavaFX Application Thread] INFO  Engine               -       Ask questions and discuss at: https://github.com/AlmasB/FXGL/discussions
+08:08:50.401 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Creating a JavaFX scene
+08:08:50.437 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target settings size: 1280.0 x 720.0
+08:08:50.437 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled scene size:    1280.0 x 720.0
+08:08:50.437 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (1.0, 1.0)
+08:08:50.438 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Set initial scene to FXGLStartupScene
+08:08:50.441 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Opening main window
+08:08:50.629 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Window border size: (16.0, 39.0)
+08:08:50.629 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled size: 1280.0 x 720.0
+08:08:50.629 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (1.0, 1.0)
+08:08:50.629 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scene size: 1280.0 x 720.0
+08:08:50.629 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Stage size: 1296.0 x 759.0
+08:08:50.660 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Going fullscreen
+08:08:50.664 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+08:08:50.693 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - User app class for loading assets: class ph.edu.dlsu.lbycpob.lbycpobbulletcredits.Main
+08:08:50.694 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+08:08:50.694 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/ui/css/fxgl_dark.css
+08:08:50.719 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+08:08:50.746 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+08:08:50.768 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=720, physics.ppm=50.0
+08:08:50.768 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Using strategy: BRUTE_FORCE
+08:08:50.771 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1280x720
+08:08:50.777 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+08:08:50.785 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+08:08:50.791 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/textures/particles/smoke.png
+08:08:50.828 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/textures/particles/trace_horizontal.png
+08:08:50.840 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+08:08:50.847 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+08:08:50.849 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: D:\Users\12510181\Downloads\LBYCPOBBulletCredits\LBYCPOBBulletCredits\system\fxgl.bundle
+08:08:50.850 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+08:08:50.850 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+08:08:50.852 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+08:08:50.852 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/ui/fonts/VarelaRound-Regular.ttf
+08:08:50.852 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+08:08:50.853 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/languages/english.lang
+08:08:50.869 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 0.205 sec
+08:08:50.870 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/ui/fonts/Abel-Regular.ttf
+08:08:50.874 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction W - W
+08:08:50.874 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction UP - Up
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction S - S
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction DOWN - Down
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction A - A
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction LEFT - Left
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction D - D
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Direction RIGHT - Right
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Start Game - Enter
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Pause - P
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Retry - R
+08:08:50.875 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Exit Game - Esc
+08:08:50.876 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/textures/fxgl_icon.png
+08:08:50.876 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/ui/fonts/TerminalLandMono-Regular.otf
+08:08:50.883 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/ui/fonts/Courier-Prime.ttf
+08:08:50.886 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:/D:/Users/12510181/.m2/repository/com/github/almasb/fxgl/25/fxgl-25.jar!/fxglassets/textures/fxgl_default_cursor.png
+08:08:50.887 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - CTRL+8
+08:08:50.888 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+08:08:50.888 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+08:08:50.889 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+7
+08:08:50.891 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+08:08:50.891 [JavaFX Application Thread] DEBUG LoopRunner           - Initializing JavaFX AnimationTimerLoop
+08:08:50.892 [JavaFX Application Thread] DEBUG GameApplicationServi - Starting new game
+08:08:50.892 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:08:50.898 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLStartupScene and adding to FXGLLoadingScene
+08:08:50.899 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLStartupScene -> FXGLLoadingScene
+08:08:50.899 [JavaFX Application Thread] DEBUG GameApplicationServi - Clearing previous game
+08:08:50.899 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+08:08:50.899 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+08:08:50.899 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+08:08:50.901 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Initializing game
+08:08:50.902 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+08:08:51.003 [FXGL Background Thread 4 ] INFO  FXGLApplication      - Game initialization took: 0.102 sec
+08:08:51.023 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:08:51.027 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLLoadingScene and adding to GameScene
+08:08:51.028 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLLoadingScene -> GameScene
+08:08:52.637 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/D:/Users/12510181/Downloads/LBYCPOBBulletCredits/LBYCPOBBulletCredits/target/classes/assets/music/battle-theme.mp3
+08:08:52.906 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@22390ac1
+08:08:52.911 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/D:/Users/12510181/Downloads/LBYCPOBBulletCredits/LBYCPOBBulletCredits/target/classes/assets/music/shoot_loop.mp3
+08:08:52.987 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@5a8036be
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - Logging environment variables
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - achievements: []
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - actualHeight: 1080.0
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - actualHeightProperty: ReadOnlyDoubleProperty [value: 1080.0]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - actualWidth: 1920.0
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - actualWidthProperty: ReadOnlyDoubleProperty [value: 1920.0]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - appIcon: fxgl_icon.png
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - applicationMode: DEVELOPER
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - cSSList: [fxgl_dark.css]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - collisionDetectionStrategy: BRUTE_FORCE
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - configClass: Optional.empty
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - credits: []
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - defaultCursor: CursorInfo(imageName=fxgl_default_cursor.png, hotspotX=7.0, hotspotY=6.0)
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - devBBoxColorProperty: ObjectProperty [value: 0xff0000ff]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - devEnableDebugCameraProperty: BooleanProperty [value: false]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - devSensorColorProperty: ObjectProperty [value: 0xffff00ff]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - devShowBBoxProperty: BooleanProperty [value: false]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - devShowPositionProperty: BooleanProperty [value: false]
+08:08:53.853 [FXGL Background Thread 3 ] DEBUG Engine               - enabledMenuItems: []
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - engineServices: [class com.almasb.fxgl.app.services.FXGLAssetLoaderService, class com.almasb.fxgl.app.FXGLApplication$GameApplicationService, class com.almasb.fxgl.app.services.FXGLDialogService, class com.almasb.fxgl.app.services.IOTaskExecutorService, class com.almasb.fxgl.io.FileSystemService, class com.almasb.fxgl.localization.LocalizationService, class com.almasb.fxgl.app.services.SystemBundleService, class com.almasb.fxgl.profile.SaveLoadService, class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider, class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider, class com.almasb.fxgl.audio.AudioPlayer, class com.almasb.fxgl.notification.impl.NotificationServiceProvider, class com.almasb.fxgl.achievement.AchievementService, class com.almasb.fxgl.cutscene.CutsceneService, class com.almasb.fxgl.minigames.MiniGameService, class com.almasb.fxgl.net.NetService, class com.almasb.fxgl.app.services.UpdaterService, class com.almasb.fxgl.dev.DevService]
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fontGame: Abel-Regular.ttf
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fontMono: TerminalLandMono-Regular.otf
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fontSizeScaleUI: 1.0
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fontText: Courier-Prime.ttf
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fontUI: VarelaRound-Regular.ttf
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fpsRefreshRate: 500.0 ms
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - fullScreen: BooleanProperty [value: true]
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - gameDifficulty: MEDIUM
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - gameDifficultyProperty: ObjectProperty [value: MEDIUM]
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - globalMusicVolume: 0.5
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - globalMusicVolumeProperty: DoubleProperty [value: 0.5]
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - globalSoundVolume: 0.5
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - globalSoundVolumeProperty: DoubleProperty [value: 0.5]
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - height: 720
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - is3D: false
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - isAndroid: false
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - isBrowser: false
+08:08:53.854 [FXGL Background Thread 3 ] DEBUG Engine               - isClickFeedbackEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isCloseConfirmation: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isDesktop: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isDeveloperMenuEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isEmbedded: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isEntityPreloadEnabled: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isExperimentalTiledLargeMap: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isFileSystemWriteAllowed: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isFullScreenAllowed: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isFullScreenFromStart: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isGameMenuEnabled: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isIOS: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isIntroEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isLinux: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isMac: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isMainMenuEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isManualResizeEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isMobile: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isNative: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isPauseMusicWhenMinimized: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isPreserveResizeRatio: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isProfilingEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isScaleAffectedOnResize: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isSingleStep: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isUserProfileEnabled: false
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - isWindows: true
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - language: ObjectProperty [value: ENGLISH]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - menuKey: ESCAPE
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - mouseSensitivity: 0.2
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - notificationViewClass: class com.almasb.fxgl.notification.view.XboxNotificationView
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - pixelsPerMeter: 50.0
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - platform: WINDOWS
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - prefHeightProperty: ReadOnlyDoubleProperty [value: 720.0]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - prefWidthProperty: ReadOnlyDoubleProperty [value: 1280.0]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - profileDir: profiles/
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - profileName: StringProperty [value: DEFAULT]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - randomSeed: -1
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - runtimeInfo: RuntimeInfo(platform=WINDOWS, version=25, build=05.02.2026 22.57)
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - saveFileExt: sav
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - scaledHeightProp$fxgl: DoubleProperty [bound, value: 1080.0]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - scaledWidthProp$fxgl: DoubleProperty [bound, value: 1920.0]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - sceneFactory: com.almasb.fxgl.app.scene.SceneFactory@11b214c5
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - secondsIn24h: 60
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuBack: menu/back.wav
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuPress: menu/press.wav
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuSelect: menu/select.wav
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - soundNotification: core/notification.wav
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - stageStyle: DECORATED
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - supportedLanguages: [ENGLISH, FRENCH, GERMAN, HUNGARIAN, RUSSIAN]
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - ticksPerSecond: -1
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - title: LBYCPOB Credits
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - urlGithub: https://github.com/AlmasB/FXGL
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - urlLeaderboard: http://fxgl-top.herokuapp.com/
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - urlPOM: https://raw.githubusercontent.com/AlmasB/FXGL/release/README.md
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - userAppClass: class ph.edu.dlsu.lbycpob.lbycpobbulletcredits.Main
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - version: 1.0
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - versionCheckDays: 7
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - width: 1280
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - Logging services
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLAssetLoaderService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.FXGLApplication$GameApplicationService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLDialogService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.IOTaskExecutorService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.io.FileSystemService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.localization.LocalizationService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.SystemBundleService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.profile.SaveLoadService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.audio.AudioPlayer
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.notification.impl.NotificationServiceProvider
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.achievement.AchievementService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.cutscene.CutsceneService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.minigames.MiniGameService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.net.NetService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.UpdaterService
+08:08:53.855 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.dev.DevService
+08:08:55.536 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/D:/Users/12510181/Downloads/LBYCPOBBulletCredits/LBYCPOBBulletCredits/target/classes/assets/music/word_hit.mp3
+08:08:55.542 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:08:55.665 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:08:56.880 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:08:57.072 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:08:57.249 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/D:/Users/12510181/Downloads/LBYCPOBBulletCredits/LBYCPOBBulletCredits/target/classes/assets/music/explosion.mp3
+08:08:57.258 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:08:59.552 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:01.698 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:01.824 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:02.464 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:02.593 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:04.017 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:04.145 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:04.272 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:04.400 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:07.937 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/D:/Users/12510181/Downloads/LBYCPOBBulletCredits/LBYCPOBBulletCredits/target/classes/assets/music/boss_hit.mp3
+08:09:07.944 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.064 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.192 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.304 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.528 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.640 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.752 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:08.880 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.009 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.137 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.265 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.409 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.520 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.648 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.777 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:09.904 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.032 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.160 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.290 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.417 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.545 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.672 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.800 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:10.928 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:11.057 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:11.185 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:11.313 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:11.441 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:11.584 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:13.008 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:16.352 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:16.385 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:16.561 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:16.609 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:16.689 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:16.817 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:18.289 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:18.368 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:20.240 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:20.289 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:20.304 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:20.321 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:21.584 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:21.632 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:21.649 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:21.888 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:22.128 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:24.448 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:24.561 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:24.688 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:24.881 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.089 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.200 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.313 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.424 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.537 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.665 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.712 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.729 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.745 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.745 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.760 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.777 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.808 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.808 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.824 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.841 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:25.872 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/D:/Users/12510181/Downloads/LBYCPOBBulletCredits/LBYCPOBBulletCredits/target/classes/assets/music/damage.mp3
+08:09:25.897 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:09:26.864 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:27.056 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:27.297 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:27.536 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.000 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.017 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.032 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.048 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.065 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.080 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.097 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.113 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.128 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:28.145 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:31.649 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:31.680 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:31.760 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:32.208 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:32.321 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:32.448 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:32.704 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:32.832 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:34.673 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:34.753 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:35.409 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:09:37.185 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:37.313 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:39.409 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:39.664 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:47.281 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:09:49.505 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:49.633 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:49.761 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:49.889 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:50.017 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:50.145 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:51.425 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:51.713 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.033 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.257 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.337 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.449 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.625 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.657 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.817 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:52.977 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.009 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.185 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.297 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.377 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.552 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.617 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.761 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.921 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:53.921 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.033 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.241 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.257 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.385 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.497 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.577 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.625 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.753 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.881 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:54.929 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.009 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.137 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.265 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.265 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.281 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.297 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.329 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.362 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:09:55.489 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:09:58.177 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:58.290 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:58.417 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:58.530 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:58.642 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:09:58.753 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:00.257 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:00.369 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:00.481 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:00.593 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:00.705 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:00.833 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:02.497 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:02.641 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:02.753 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:02.881 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:03.010 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:03.138 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:03.265 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:05.058 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:05.186 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:05.330 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:05.457 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:05.585 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:05.714 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@3c5497b7
+08:10:05.841 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:06.290 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:08.353 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:08.625 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:08.657 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:08.737 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:08.849 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:08.961 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:08.977 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.073 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.185 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.266 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.297 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.425 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.537 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.586 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.617 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.745 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.873 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.905 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:09.985 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.114 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.225 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.225 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.353 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.497 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.545 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.625 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.753 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.834 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:10.898 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.041 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.153 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.169 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.297 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.441 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.473 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.553 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.682 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.826 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.842 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:11.938 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.066 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.194 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.194 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.321 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.449 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.545 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.578 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.705 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.833 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.865 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:12.881 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:12.962 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.089 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.217 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.234 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.377 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.586 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.601 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:13.969 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.131 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.257 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:14.257 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:14.321 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.482 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.673 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.769 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.817 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.834 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:14.945 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:15.025 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:16.066 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:18.114 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:18.162 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:18.226 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:18.257 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:18.466 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:18.514 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:18.562 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:18.642 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:19.233 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:22.082 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.129 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.178 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.226 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.273 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.338 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.402 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:22.450 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:22.673 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:24.930 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:25.074 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:25.202 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.033 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.161 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.290 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.417 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.546 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.673 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.802 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:26.930 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.057 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.186 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.314 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.457 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.569 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.697 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.826 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:27.953 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.081 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.211 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.338 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.466 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.594 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.722 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.849 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:28.977 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.105 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.234 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.362 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.490 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.617 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.746 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:29.873 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:30.003 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:30.129 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:30.258 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:31.969 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:34.338 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:34.433 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:34.562 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:34.689 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:34.818 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.097 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.226 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.354 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.482 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.610 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.738 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.866 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:36.994 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.122 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.250 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.377 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.506 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.634 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.762 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:37.889 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.017 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.146 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.274 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.403 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.530 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.674 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.802 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:38.930 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.074 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.202 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.329 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.473 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.586 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.714 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.858 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:39.970 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.098 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.226 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.354 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.482 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.610 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.738 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.865 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:40.994 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:41.122 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:42.610 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:42.753 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:42.978 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.138 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.250 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.362 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.490 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.602 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.714 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.842 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:43.938 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.050 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.177 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.290 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.402 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.514 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.626 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.738 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.850 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:44.962 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.090 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.202 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.314 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.426 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.554 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.682 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.811 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:45.938 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.066 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.194 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.323 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.450 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.577 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.706 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.850 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:46.977 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:47.106 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:47.250 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:47.379 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:47.506 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:47.650 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:47.666 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:47.778 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:48.644 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:48.786 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:48.914 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.042 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.186 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.315 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.442 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.586 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.714 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.842 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:49.986 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.114 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.242 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.386 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.514 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.642 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.786 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:50.916 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:10:52.146 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.243 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.338 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.450 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.562 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.690 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.802 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:52.914 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.042 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.138 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.250 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.363 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.474 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.586 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.715 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.826 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:53.939 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.050 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.162 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.274 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.387 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.498 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.627 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.738 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.850 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:54.962 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.074 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.202 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.314 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.443 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.571 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.699 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.826 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:55.954 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.083 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.211 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.338 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.466 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.594 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.722 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.850 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:56.978 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.107 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.235 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.362 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.491 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.618 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.746 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:57.874 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.002 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.130 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.146 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:10:58.258 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.386 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.515 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.642 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.786 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:58.914 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:59.042 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:59.186 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:10:59.316 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:11:00.530 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:00.627 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:00.754 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:00.867 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:00.978 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.106 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.218 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.330 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.458 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.570 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.683 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.795 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:01.906 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.018 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.130 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.242 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.354 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.483 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.595 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.706 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.818 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:02.930 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.043 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.154 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.267 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.378 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.506 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.619 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.730 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.860 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:03.986 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.115 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.242 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.371 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.498 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.644 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.754 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:04.882 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.012 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.139 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.267 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.394 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.522 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.650 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.779 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:05.906 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.034 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.162 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.291 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.418 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.546 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.675 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.803 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:06.898 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:06.931 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:07.058 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:07.203 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:07.330 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:07.458 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:07.602 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:07.730 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@77b130a6
+08:11:08.947 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.011 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.122 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.234 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.363 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.474 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.586 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.698 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.810 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:09.922 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.034 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.147 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.259 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.387 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.499 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.610 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.722 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.834 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:10.946 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.059 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.170 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.298 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.410 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.538 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.651 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.762 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:11.875 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.002 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.114 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.243 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.370 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.499 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.626 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.756 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:12.884 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.011 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.139 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.267 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.394 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.522 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.650 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:13.779 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@30c39ab9
+08:11:14.770 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:17.939 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:20.962 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:31.379 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:34.515 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:38.884 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@42ca7d6e
+08:11:38.903 [JavaFX Application Thread] DEBUG AudioPlayer          - Stopping music com.almasb.fxgl.audio.Music@5a8036be
+08:11:40.470 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@5a8036be
+08:11:40.979 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Push state: FXGLDefaultMenu
+08:11:40.983 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:11:40.985 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from GameScene and adding to FXGLDefaultMenu
+08:11:40.985 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - GameScene -> FXGLDefaultMenu
+08:11:46.609 [JavaFX Application Thread] DEBUG Menu                 - fireExit()
+08:11:46.611 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Push state: DialogSubScene
+08:11:46.611 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:11:46.611 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLDefaultMenu and adding to DialogSubScene
+08:11:46.611 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLDefaultMenu -> DialogSubScene
+08:11:47.722 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Pop state: DialogSubScene
+08:11:47.722 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+08:11:47.722 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from DialogSubScene and adding to FXGLDefaultMenu
+08:11:47.723 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLDefaultMenu <- DialogSubScene
+08:11:47.723 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+08:11:47.723 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+08:11:47.723 [JavaFX Application Thread] DEBUG SystemBundleService  - Saving FXGL system data
+08:11:47.725 [JavaFX Application Thread] DEBUG FileSystemAccess     - Writing to: D:\Users\12510181\Downloads\LBYCPOBBulletCredits\LBYCPOBBulletCredits\system\fxgl.bundle
+08:11:47.726 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+08:11:47.726 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Closing main window
+08:11:47.739 [JavaFX Application Thread] DEBUG Logger               - Closing Logger
